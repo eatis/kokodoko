@@ -1,0 +1,33 @@
+PODS:
+  - AFNetworking (2.0.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.0.1):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.0.1)
+  - AFNetworking/Security (2.0.1)
+  - AFNetworking/Serialization (2.0.1)
+  - AFNetworking/UIKit (2.0.1):
+    - AFNetworking/NSURLConnection
+  - CRGradientNavigationBar (0.3)
+  - MRProgress (0.2.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - CRGradientNavigationBar (~> 0.3)
+  - MRProgress (~> 0.2.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 867cd74266eeab923f249aa8b3d56899a67cc50e
+  CRGradientNavigationBar: d7285fa8ac5bc57677bab4e3ae12281991d8663e
+  MRProgress: 28c146612cd5ceb30a16d06216028beab125d926
+
+COCOAPODS: 0.32.1

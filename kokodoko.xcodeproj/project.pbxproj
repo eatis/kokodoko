@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E1AF3AC1905A95D00D818FA /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E1AF3AB1905A95D00D818FA /* GoogleMaps.framework */; };
+		6E1AF3AE1905A9D200D818FA /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E1AF3AD1905A9D200D818FA /* GoogleMaps.bundle */; };
+		6E57EC24182D233F00BEBC95 /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E57EC22182D233F00BEBC95 /* marker.png */; };
+		6E57EC25182D233F00BEBC95 /* marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E57EC23182D233F00BEBC95 /* marker@2x.png */; };
+		6E57EC49182E33D000BEBC95 /* kokodoko.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E57EC48182E33D000BEBC95 /* kokodoko.png */; };
+		6E57EC541833C8CB00BEBC95 /* linebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E57EC501833C8CB00BEBC95 /* linebutton.png */; };
+		6E57EC551833C8CB00BEBC95 /* linebutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E57EC511833C8CB00BEBC95 /* linebutton@2x.png */; };
+		6E57EC561833C8CB00BEBC95 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E57EC521833C8CB00BEBC95 /* mail.png */; };
+		6E57EC571833C8CB00BEBC95 /* mail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E57EC531833C8CB00BEBC95 /* mail@2x.png */; };
+		6E57EC5B1833CE0F00BEBC95 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E57EC5A1833CE0F00BEBC95 /* Reachability.m */; };
+		6E57EC621834D9EE00BEBC95 /* MetroUI-Other-Mail-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E57EC601834D9EE00BEBC95 /* MetroUI-Other-Mail-icon.png */; };
+		6E57EC631834D9EE00BEBC95 /* MetroUI-Other-Mail-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E57EC611834D9EE00BEBC95 /* MetroUI-Other-Mail-icon@2x.png */; };
+		6E57EC661834E39100BEBC95 /* Messages-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E57EC641834E39100BEBC95 /* Messages-icon.png */; };
+		6E57EC671834E39100BEBC95 /* Messages-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E57EC651834E39100BEBC95 /* Messages-icon@2x.png */; };
+		6E612F331905A28100DB9DB4 /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E612F321905A28100DB9DB4 /* libNendAd.a */; };
+		6E821D271834F882000E5B7F /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E821D221834F882000E5B7F /* FontAwesome.ttf */; };
+		6E821D281834F882000E5B7F /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E821D241834F882000E5B7F /* NSString+FontAwesome.m */; };
+		6E821D291834F882000E5B7F /* UIButton+Bootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E821D261834F882000E5B7F /* UIButton+Bootstrap.m */; };
+		6E821D2B1834F8A4000E5B7F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6E821D2A1834F8A4000E5B7F /* LICENSE */; };
+		6E821D3318351F4F000E5B7F /* NADView_readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6E821D3118351F4F000E5B7F /* NADView_readme.txt */; };
+		6E821D3518351F80000E5B7F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E821D3418351F80000E5B7F /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6E821D3718351FA1000E5B7F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E821D3618351FA1000E5B7F /* Security.framework */; };
+		6ECC6F48181E56670013E2CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC6F47181E56670013E2CC /* Foundation.framework */; };
+		6ECC6F4A181E56670013E2CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC6F49181E56670013E2CC /* CoreGraphics.framework */; };
+		6ECC6F4C181E56670013E2CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC6F4B181E56670013E2CC /* UIKit.framework */; };
+		6ECC6F52181E56670013E2CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ECC6F50181E56670013E2CC /* InfoPlist.strings */; };
+		6ECC6F54181E56670013E2CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECC6F53181E56670013E2CC /* main.m */; };
+		6ECC6F58181E56670013E2CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECC6F57181E56670013E2CC /* AppDelegate.m */; };
+		6ECC6F5B181E56670013E2CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECC6F59181E56670013E2CC /* Main.storyboard */; };
+		6ECC6F5E181E56670013E2CC /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECC6F5D181E56670013E2CC /* MapViewController.m */; };
+		6ECC6F60181E56670013E2CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECC6F5F181E56670013E2CC /* Images.xcassets */; };
+		6ECC6F67181E56670013E2CC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC6F66181E56670013E2CC /* XCTest.framework */; };
+		6ECC6F68181E56670013E2CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC6F47181E56670013E2CC /* Foundation.framework */; };
+		6ECC6F69181E56670013E2CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC6F4B181E56670013E2CC /* UIKit.framework */; };
+		6ECC6F71181E56670013E2CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ECC6F6F181E56670013E2CC /* InfoPlist.strings */; };
+		6ECC6F73181E56670013E2CC /* kokodokoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECC6F72181E56670013E2CC /* kokodokoTests.m */; };
+		6ECC6F7D181E58240013E2CC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC6F7C181E58240013E2CC /* CoreLocation.framework */; };
+		6ECC6F88181EA15F0013E2CC /* HTTPCliant.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECC6F87181EA15F0013E2CC /* HTTPCliant.m */; };
+		6ECC6F92181EC0610013E2CC /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECC6F91181EC0610013E2CC /* Post.m */; };
+		6ECC6F95181EC0CA0013E2CC /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECC6F94181EC0CA0013E2CC /* Location.m */; };
+		6ECC6F9B182008540013E2CC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC6F9A182008540013E2CC /* MapKit.framework */; };
+		6ECC6F9E18201E490013E2CC /* ImakokoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECC6F9D18201E490013E2CC /* ImakokoViewController.m */; };
+		6ECC6FA4182106770013E2CC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC6FA3182106770013E2CC /* AVFoundation.framework */; };
+		6ECC6FA6182106820013E2CC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC6FA5182106820013E2CC /* CoreData.framework */; };
+		6ECC6FA8182106970013E2CC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC6FA7182106970013E2CC /* CoreText.framework */; };
+		6ECC6FAA182106A70013E2CC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC6FA9182106A70013E2CC /* GLKit.framework */; };
+		6ECC6FAC182106B30013E2CC /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC6FAB182106B30013E2CC /* ImageIO.framework */; };
+		6ECC6FAE182106CD0013E2CC /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC6FAD182106CD0013E2CC /* libc++.dylib */; };
+		6ECC6FB0182106EE0013E2CC /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC6FAF182106EE0013E2CC /* libicucore.dylib */; };
+		6ECC6FB2182106FC0013E2CC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC6FB1182106FC0013E2CC /* libz.dylib */; };
+		6ECC6FB41821070A0013E2CC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC6FB31821070A0013E2CC /* OpenGLES.framework */; };
+		6ECC6FB61821071F0013E2CC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC6FB51821071F0013E2CC /* QuartzCore.framework */; };
+		6ECC6FB8182107320013E2CC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC6FB7182107320013E2CC /* SystemConfiguration.framework */; };
+		6EDFB66B1836687E00E60AF5 /* kokodoko@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EDFB66A1836687E00E60AF5 /* kokodoko@2x.png */; };
+		6EECA4F918212ADE00DF3058 /* linebutton_20x20.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EECA4F418212ADE00DF3058 /* linebutton_20x20.png */; };
+		6EECA4FA18212ADE00DF3058 /* linebutton_30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EECA4F518212ADE00DF3058 /* linebutton_30x30.png */; };
+		6EECA4FB18212ADE00DF3058 /* linebutton_36x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EECA4F618212ADE00DF3058 /* linebutton_36x60.png */; };
+		6EECA4FC18212ADE00DF3058 /* linebutton_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EECA4F718212ADE00DF3058 /* linebutton_40x40.png */; };
+		6EECA4FD18212ADE00DF3058 /* linebutton_88x20.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EECA4F818212ADE00DF3058 /* linebutton_88x20.png */; };
+		6EECA503182141A100DF3058 /* UrlShortener.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EECA502182141A100DF3058 /* UrlShortener.m */; };
+		6EECA50518221D8400DF3058 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EECA50418221D8400DF3058 /* MessageUI.framework */; };
+		98A2EB604775428595C31420 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E44E9A0D37764689A02174DA /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ECC6F6A181E56670013E2CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ECC6F3C181E56670013E2CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ECC6F43181E56670013E2CC;
+			remoteInfo = kokodoko;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E1AF3AB1905A95D00D818FA /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = "../GoogleMaps-iOS-1.7.2/GoogleMaps.framework"; sourceTree = "<group>"; };
+		6E1AF3AD1905A9D200D818FA /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		6E57EC22182D233F00BEBC95 /* marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker.png; sourceTree = "<group>"; };
+		6E57EC23182D233F00BEBC95 /* marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker@2x.png"; sourceTree = "<group>"; };
+		6E57EC48182E33D000BEBC95 /* kokodoko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kokodoko.png; sourceTree = "<group>"; };
+		6E57EC501833C8CB00BEBC95 /* linebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linebutton.png; sourceTree = "<group>"; };
+		6E57EC511833C8CB00BEBC95 /* linebutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "linebutton@2x.png"; sourceTree = "<group>"; };
+		6E57EC521833C8CB00BEBC95 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		6E57EC531833C8CB00BEBC95 /* mail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail@2x.png"; sourceTree = "<group>"; };
+		6E57EC591833CE0F00BEBC95 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		6E57EC5A1833CE0F00BEBC95 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		6E57EC601834D9EE00BEBC95 /* MetroUI-Other-Mail-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MetroUI-Other-Mail-icon.png"; sourceTree = "<group>"; };
+		6E57EC611834D9EE00BEBC95 /* MetroUI-Other-Mail-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MetroUI-Other-Mail-icon@2x.png"; sourceTree = "<group>"; };
+		6E57EC641834E39100BEBC95 /* Messages-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Messages-icon.png"; sourceTree = "<group>"; };
+		6E57EC651834E39100BEBC95 /* Messages-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Messages-icon@2x.png"; sourceTree = "<group>"; };
+		6E612F321905A28100DB9DB4 /* libNendAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNendAd.a; sourceTree = "<group>"; };
+		6E821D221834F882000E5B7F /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		6E821D231834F882000E5B7F /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		6E821D241834F882000E5B7F /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		6E821D251834F882000E5B7F /* UIButton+Bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Bootstrap.h"; sourceTree = "<group>"; };
+		6E821D261834F882000E5B7F /* UIButton+Bootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Bootstrap.m"; sourceTree = "<group>"; };
+		6E821D2A1834F8A4000E5B7F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6E821D2E18351F4F000E5B7F /* NADIconLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADIconLoader.h; sourceTree = "<group>"; };
+		6E821D2F18351F4F000E5B7F /* NADIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADIconView.h; sourceTree = "<group>"; };
+		6E821D3018351F4F000E5B7F /* NADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADView.h; sourceTree = "<group>"; };
+		6E821D3118351F4F000E5B7F /* NADView_readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NADView_readme.txt; sourceTree = "<group>"; };
+		6E821D3418351F80000E5B7F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		6E821D3618351FA1000E5B7F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6ECC6F44181E56670013E2CC /* kokodoko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kokodoko.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECC6F47181E56670013E2CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6ECC6F49181E56670013E2CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6ECC6F4B181E56670013E2CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6ECC6F4F181E56670013E2CC /* kokodoko-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kokodoko-Info.plist"; sourceTree = "<group>"; };
+		6ECC6F51181E56670013E2CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6ECC6F53181E56670013E2CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6ECC6F55181E56670013E2CC /* kokodoko-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kokodoko-Prefix.pch"; sourceTree = "<group>"; };
+		6ECC6F56181E56670013E2CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6ECC6F57181E56670013E2CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6ECC6F5A181E56670013E2CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ECC6F5C181E56670013E2CC /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		6ECC6F5D181E56670013E2CC /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		6ECC6F5F181E56670013E2CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6ECC6F65181E56670013E2CC /* kokodokoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kokodokoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECC6F66181E56670013E2CC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6ECC6F6E181E56670013E2CC /* kokodokoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kokodokoTests-Info.plist"; sourceTree = "<group>"; };
+		6ECC6F70181E56670013E2CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6ECC6F72181E56670013E2CC /* kokodokoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kokodokoTests.m; sourceTree = "<group>"; };
+		6ECC6F7C181E58240013E2CC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6ECC6F86181EA15F0013E2CC /* HTTPCliant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPCliant.h; sourceTree = "<group>"; };
+		6ECC6F87181EA15F0013E2CC /* HTTPCliant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPCliant.m; sourceTree = "<group>"; };
+		6ECC6F90181EC0610013E2CC /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		6ECC6F91181EC0610013E2CC /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		6ECC6F93181EC0CA0013E2CC /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		6ECC6F94181EC0CA0013E2CC /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		6ECC6F9A182008540013E2CC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6ECC6F9C18201E490013E2CC /* ImakokoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImakokoViewController.h; sourceTree = "<group>"; };
+		6ECC6F9D18201E490013E2CC /* ImakokoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImakokoViewController.m; sourceTree = "<group>"; };
+		6ECC6F9F182105F20013E2CC /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		6ECC6FA1182106530013E2CC /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		6ECC6FA3182106770013E2CC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6ECC6FA5182106820013E2CC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6ECC6FA7182106970013E2CC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		6ECC6FA9182106A70013E2CC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		6ECC6FAB182106B30013E2CC /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		6ECC6FAD182106CD0013E2CC /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		6ECC6FAF182106EE0013E2CC /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		6ECC6FB1182106FC0013E2CC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		6ECC6FB31821070A0013E2CC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6ECC6FB51821071F0013E2CC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6ECC6FB7182107320013E2CC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6EDFB66A1836687E00E60AF5 /* kokodoko@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kokodoko@2x.png"; sourceTree = "<group>"; };
+		6EECA4F418212ADE00DF3058 /* linebutton_20x20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linebutton_20x20.png; sourceTree = "<group>"; };
+		6EECA4F518212ADE00DF3058 /* linebutton_30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linebutton_30x30.png; sourceTree = "<group>"; };
+		6EECA4F618212ADE00DF3058 /* linebutton_36x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linebutton_36x60.png; sourceTree = "<group>"; };
+		6EECA4F718212ADE00DF3058 /* linebutton_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linebutton_40x40.png; sourceTree = "<group>"; };
+		6EECA4F818212ADE00DF3058 /* linebutton_88x20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linebutton_88x20.png; sourceTree = "<group>"; };
+		6EECA501182141A100DF3058 /* UrlShortener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlShortener.h; sourceTree = "<group>"; };
+		6EECA502182141A100DF3058 /* UrlShortener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrlShortener.m; sourceTree = "<group>"; };
+		6EECA50418221D8400DF3058 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E44E9A0D37764689A02174DA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA93AD0F83B45D2BC457629 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ECC6F41181E56670013E2CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1AF3AC1905A95D00D818FA /* GoogleMaps.framework in Frameworks */,
+				6E821D3718351FA1000E5B7F /* Security.framework in Frameworks */,
+				6E821D3518351F80000E5B7F /* AdSupport.framework in Frameworks */,
+				6ECC6FB8182107320013E2CC /* SystemConfiguration.framework in Frameworks */,
+				6E612F331905A28100DB9DB4 /* libNendAd.a in Frameworks */,
+				6EECA50518221D8400DF3058 /* MessageUI.framework in Frameworks */,
+				6ECC6FB61821071F0013E2CC /* QuartzCore.framework in Frameworks */,
+				6ECC6FB41821070A0013E2CC /* OpenGLES.framework in Frameworks */,
+				6ECC6FB2182106FC0013E2CC /* libz.dylib in Frameworks */,
+				6ECC6FB0182106EE0013E2CC /* libicucore.dylib in Frameworks */,
+				6ECC6FAE182106CD0013E2CC /* libc++.dylib in Frameworks */,
+				6ECC6FAC182106B30013E2CC /* ImageIO.framework in Frameworks */,
+				6ECC6FAA182106A70013E2CC /* GLKit.framework in Frameworks */,
+				6ECC6FA8182106970013E2CC /* CoreText.framework in Frameworks */,
+				6ECC6FA6182106820013E2CC /* CoreData.framework in Frameworks */,
+				6ECC6FA4182106770013E2CC /* AVFoundation.framework in Frameworks */,
+				6ECC6F9B182008540013E2CC /* MapKit.framework in Frameworks */,
+				6ECC6F7D181E58240013E2CC /* CoreLocation.framework in Frameworks */,
+				6ECC6F4A181E56670013E2CC /* CoreGraphics.framework in Frameworks */,
+				6ECC6F4C181E56670013E2CC /* UIKit.framework in Frameworks */,
+				6ECC6F48181E56670013E2CC /* Foundation.framework in Frameworks */,
+				98A2EB604775428595C31420 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECC6F62181E56670013E2CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECC6F67181E56670013E2CC /* XCTest.framework in Frameworks */,
+				6ECC6F69181E56670013E2CC /* UIKit.framework in Frameworks */,
+				6ECC6F68181E56670013E2CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E57EC21182D233F00BEBC95 /* Marker */ = {
+			isa = PBXGroup;
+			children = (
+				6E57EC22182D233F00BEBC95 /* marker.png */,
+				6E57EC23182D233F00BEBC95 /* marker@2x.png */,
+			);
+			path = Marker;
+			sourceTree = "<group>";
+		};
+		6E57EC47182E33D000BEBC95 /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				6E57EC48182E33D000BEBC95 /* kokodoko.png */,
+				6EDFB66A1836687E00E60AF5 /* kokodoko@2x.png */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		6E57EC4F1833C8CB00BEBC95 /* mailbutton */ = {
+			isa = PBXGroup;
+			children = (
+				6E57EC641834E39100BEBC95 /* Messages-icon.png */,
+				6E57EC651834E39100BEBC95 /* Messages-icon@2x.png */,
+				6E57EC601834D9EE00BEBC95 /* MetroUI-Other-Mail-icon.png */,
+				6E57EC611834D9EE00BEBC95 /* MetroUI-Other-Mail-icon@2x.png */,
+				6E57EC501833C8CB00BEBC95 /* linebutton.png */,
+				6E57EC511833C8CB00BEBC95 /* linebutton@2x.png */,
+				6E57EC521833C8CB00BEBC95 /* mail.png */,
+				6E57EC531833C8CB00BEBC95 /* mail@2x.png */,
+			);
+			path = mailbutton;
+			sourceTree = "<group>";
+		};
+		6E57EC581833CE0F00BEBC95 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				6E57EC591833CE0F00BEBC95 /* Reachability.h */,
+				6E57EC5A1833CE0F00BEBC95 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		6E821D211834F882000E5B7F /* StrapButton */ = {
+			isa = PBXGroup;
+			children = (
+				6E821D2A1834F8A4000E5B7F /* LICENSE */,
+				6E821D221834F882000E5B7F /* FontAwesome.ttf */,
+				6E821D231834F882000E5B7F /* NSString+FontAwesome.h */,
+				6E821D241834F882000E5B7F /* NSString+FontAwesome.m */,
+				6E821D251834F882000E5B7F /* UIButton+Bootstrap.h */,
+				6E821D261834F882000E5B7F /* UIButton+Bootstrap.m */,
+			);
+			path = StrapButton;
+			sourceTree = "<group>";
+		};
+		6E821D2C18351F4F000E5B7F /* NendAd */ = {
+			isa = PBXGroup;
+			children = (
+				6E612F321905A28100DB9DB4 /* libNendAd.a */,
+				6E821D2E18351F4F000E5B7F /* NADIconLoader.h */,
+				6E821D2F18351F4F000E5B7F /* NADIconView.h */,
+				6E821D3018351F4F000E5B7F /* NADView.h */,
+				6E821D3118351F4F000E5B7F /* NADView_readme.txt */,
+			);
+			path = NendAd;
+			sourceTree = "<group>";
+		};
+		6ECC6F3B181E56670013E2CC = {
+			isa = PBXGroup;
+			children = (
+				6E1AF3AD1905A9D200D818FA /* GoogleMaps.bundle */,
+				6E821D2C18351F4F000E5B7F /* NendAd */,
+				6E821D211834F882000E5B7F /* StrapButton */,
+				6E57EC581833CE0F00BEBC95 /* Reachability */,
+				6EECA500182141A100DF3058 /* UrlShortener */,
+				6EECA4F218212ADE00DF3058 /* Resources */,
+				6ECC6F89181EC00D0013E2CC /* Models */,
+				6ECC6F85181EA1190013E2CC /* HTTPClient */,
+				6ECC6F4D181E56670013E2CC /* kokodoko */,
+				6ECC6F6C181E56670013E2CC /* kokodokoTests */,
+				6ECC6F46181E56670013E2CC /* Frameworks */,
+				6ECC6F45181E56670013E2CC /* Products */,
+				FEA93AD0F83B45D2BC457629 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		6ECC6F45181E56670013E2CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ECC6F44181E56670013E2CC /* kokodoko.app */,
+				6ECC6F65181E56670013E2CC /* kokodokoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ECC6F46181E56670013E2CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E1AF3AB1905A95D00D818FA /* GoogleMaps.framework */,
+				6E821D3618351FA1000E5B7F /* Security.framework */,
+				6E821D3418351F80000E5B7F /* AdSupport.framework */,
+				6EECA50418221D8400DF3058 /* MessageUI.framework */,
+				6ECC6FB7182107320013E2CC /* SystemConfiguration.framework */,
+				6ECC6FB51821071F0013E2CC /* QuartzCore.framework */,
+				6ECC6FB31821070A0013E2CC /* OpenGLES.framework */,
+				6ECC6FB1182106FC0013E2CC /* libz.dylib */,
+				6ECC6FAF182106EE0013E2CC /* libicucore.dylib */,
+				6ECC6FAD182106CD0013E2CC /* libc++.dylib */,
+				6ECC6FAB182106B30013E2CC /* ImageIO.framework */,
+				6ECC6FA9182106A70013E2CC /* GLKit.framework */,
+				6ECC6FA7182106970013E2CC /* CoreText.framework */,
+				6ECC6FA5182106820013E2CC /* CoreData.framework */,
+				6ECC6FA3182106770013E2CC /* AVFoundation.framework */,
+				6ECC6FA1182106530013E2CC /* GoogleMaps.bundle */,
+				6ECC6F9F182105F20013E2CC /* GoogleMaps.framework */,
+				6ECC6F9A182008540013E2CC /* MapKit.framework */,
+				6ECC6F7C181E58240013E2CC /* CoreLocation.framework */,
+				6ECC6F47181E56670013E2CC /* Foundation.framework */,
+				6ECC6F49181E56670013E2CC /* CoreGraphics.framework */,
+				6ECC6F4B181E56670013E2CC /* UIKit.framework */,
+				6ECC6F66181E56670013E2CC /* XCTest.framework */,
+				E44E9A0D37764689A02174DA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ECC6F4D181E56670013E2CC /* kokodoko */ = {
+			isa = PBXGroup;
+			children = (
+				6ECC6F56181E56670013E2CC /* AppDelegate.h */,
+				6ECC6F57181E56670013E2CC /* AppDelegate.m */,
+				6ECC6F59181E56670013E2CC /* Main.storyboard */,
+				6ECC6F5C181E56670013E2CC /* MapViewController.h */,
+				6ECC6F5D181E56670013E2CC /* MapViewController.m */,
+				6ECC6F9C18201E490013E2CC /* ImakokoViewController.h */,
+				6ECC6F9D18201E490013E2CC /* ImakokoViewController.m */,
+				6ECC6F5F181E56670013E2CC /* Images.xcassets */,
+				6ECC6F4E181E56670013E2CC /* Supporting Files */,
+			);
+			path = kokodoko;
+			sourceTree = "<group>";
+		};
+		6ECC6F4E181E56670013E2CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ECC6F4F181E56670013E2CC /* kokodoko-Info.plist */,
+				6ECC6F50181E56670013E2CC /* InfoPlist.strings */,
+				6ECC6F53181E56670013E2CC /* main.m */,
+				6ECC6F55181E56670013E2CC /* kokodoko-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ECC6F6C181E56670013E2CC /* kokodokoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ECC6F72181E56670013E2CC /* kokodokoTests.m */,
+				6ECC6F6D181E56670013E2CC /* Supporting Files */,
+			);
+			path = kokodokoTests;
+			sourceTree = "<group>";
+		};
+		6ECC6F6D181E56670013E2CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ECC6F6E181E56670013E2CC /* kokodokoTests-Info.plist */,
+				6ECC6F6F181E56670013E2CC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ECC6F85181EA1190013E2CC /* HTTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				6ECC6F86181EA15F0013E2CC /* HTTPCliant.h */,
+				6ECC6F87181EA15F0013E2CC /* HTTPCliant.m */,
+			);
+			path = HTTPClient;
+			sourceTree = "<group>";
+		};
+		6ECC6F89181EC00D0013E2CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6ECC6F90181EC0610013E2CC /* Post.h */,
+				6ECC6F91181EC0610013E2CC /* Post.m */,
+				6ECC6F93181EC0CA0013E2CC /* Location.h */,
+				6ECC6F94181EC0CA0013E2CC /* Location.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6EECA4F218212ADE00DF3058 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E57EC4F1833C8CB00BEBC95 /* mailbutton */,
+				6E57EC47182E33D000BEBC95 /* NavBar */,
+				6E57EC21182D233F00BEBC95 /* Marker */,
+				6EECA4F318212ADE00DF3058 /* linebutton */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6EECA4F318212ADE00DF3058 /* linebutton */ = {
+			isa = PBXGroup;
+			children = (
+				6EECA4F418212ADE00DF3058 /* linebutton_20x20.png */,
+				6EECA4F518212ADE00DF3058 /* linebutton_30x30.png */,
+				6EECA4F618212ADE00DF3058 /* linebutton_36x60.png */,
+				6EECA4F718212ADE00DF3058 /* linebutton_40x40.png */,
+				6EECA4F818212ADE00DF3058 /* linebutton_88x20.png */,
+			);
+			path = linebutton;
+			sourceTree = "<group>";
+		};
+		6EECA500182141A100DF3058 /* UrlShortener */ = {
+			isa = PBXGroup;
+			children = (
+				6EECA501182141A100DF3058 /* UrlShortener.h */,
+				6EECA502182141A100DF3058 /* UrlShortener.m */,
+			);
+			path = UrlShortener;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ECC6F43181E56670013E2CC /* kokodoko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ECC6F76181E56670013E2CC /* Build configuration list for PBXNativeTarget "kokodoko" */;
+			buildPhases = (
+				99AC2B223DD64B6FB432B85F /* Check Pods Manifest.lock */,
+				6ECC6F40181E56670013E2CC /* Sources */,
+				6ECC6F41181E56670013E2CC /* Frameworks */,
+				6ECC6F42181E56670013E2CC /* Resources */,
+				5E7518BA1DD44EC383507609 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kokodoko;
+			productName = kokodoko;
+			productReference = 6ECC6F44181E56670013E2CC /* kokodoko.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ECC6F64181E56670013E2CC /* kokodokoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ECC6F79181E56670013E2CC /* Build configuration list for PBXNativeTarget "kokodokoTests" */;
+			buildPhases = (
+				6ECC6F61181E56670013E2CC /* Sources */,
+				6ECC6F62181E56670013E2CC /* Frameworks */,
+				6ECC6F63181E56670013E2CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ECC6F6B181E56670013E2CC /* PBXTargetDependency */,
+			);
+			name = kokodokoTests;
+			productName = kokodokoTests;
+			productReference = 6ECC6F65181E56670013E2CC /* kokodokoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ECC6F3C181E56670013E2CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = EATis;
+				TargetAttributes = {
+					6ECC6F64181E56670013E2CC = {
+						TestTargetID = 6ECC6F43181E56670013E2CC;
+					};
+				};
+			};
+			buildConfigurationList = 6ECC6F3F181E56670013E2CC /* Build configuration list for PBXProject "kokodoko" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ECC6F3B181E56670013E2CC;
+			productRefGroup = 6ECC6F45181E56670013E2CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ECC6F43181E56670013E2CC /* kokodoko */,
+				6ECC6F64181E56670013E2CC /* kokodokoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ECC6F42181E56670013E2CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1AF3AE1905A9D200D818FA /* GoogleMaps.bundle in Resources */,
+				6E57EC49182E33D000BEBC95 /* kokodoko.png in Resources */,
+				6EECA4FD18212ADE00DF3058 /* linebutton_88x20.png in Resources */,
+				6E57EC24182D233F00BEBC95 /* marker.png in Resources */,
+				6E57EC671834E39100BEBC95 /* Messages-icon@2x.png in Resources */,
+				6E57EC25182D233F00BEBC95 /* marker@2x.png in Resources */,
+				6EDFB66B1836687E00E60AF5 /* kokodoko@2x.png in Resources */,
+				6E821D3318351F4F000E5B7F /* NADView_readme.txt in Resources */,
+				6ECC6F60181E56670013E2CC /* Images.xcassets in Resources */,
+				6ECC6F52181E56670013E2CC /* InfoPlist.strings in Resources */,
+				6EECA4FC18212ADE00DF3058 /* linebutton_40x40.png in Resources */,
+				6E821D271834F882000E5B7F /* FontAwesome.ttf in Resources */,
+				6EECA4F918212ADE00DF3058 /* linebutton_20x20.png in Resources */,
+				6E57EC541833C8CB00BEBC95 /* linebutton.png in Resources */,
+				6ECC6F5B181E56670013E2CC /* Main.storyboard in Resources */,
+				6E57EC551833C8CB00BEBC95 /* linebutton@2x.png in Resources */,
+				6E57EC621834D9EE00BEBC95 /* MetroUI-Other-Mail-icon.png in Resources */,
+				6E57EC571833C8CB00BEBC95 /* mail@2x.png in Resources */,
+				6E57EC561833C8CB00BEBC95 /* mail.png in Resources */,
+				6E821D2B1834F8A4000E5B7F /* LICENSE in Resources */,
+				6EECA4FA18212ADE00DF3058 /* linebutton_30x30.png in Resources */,
+				6EECA4FB18212ADE00DF3058 /* linebutton_36x60.png in Resources */,
+				6E57EC631834D9EE00BEBC95 /* MetroUI-Other-Mail-icon@2x.png in Resources */,
+				6E57EC661834E39100BEBC95 /* Messages-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECC6F63181E56670013E2CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECC6F71181E56670013E2CC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E7518BA1DD44EC383507609 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99AC2B223DD64B6FB432B85F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ECC6F40181E56670013E2CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E821D281834F882000E5B7F /* NSString+FontAwesome.m in Sources */,
+				6E821D291834F882000E5B7F /* UIButton+Bootstrap.m in Sources */,
+				6ECC6F92181EC0610013E2CC /* Post.m in Sources */,
+				6ECC6F5E181E56670013E2CC /* MapViewController.m in Sources */,
+				6ECC6F58181E56670013E2CC /* AppDelegate.m in Sources */,
+				6ECC6F88181EA15F0013E2CC /* HTTPCliant.m in Sources */,
+				6ECC6F95181EC0CA0013E2CC /* Location.m in Sources */,
+				6ECC6F9E18201E490013E2CC /* ImakokoViewController.m in Sources */,
+				6EECA503182141A100DF3058 /* UrlShortener.m in Sources */,
+				6E57EC5B1833CE0F00BEBC95 /* Reachability.m in Sources */,
+				6ECC6F54181E56670013E2CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECC6F61181E56670013E2CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECC6F73181E56670013E2CC /* kokodokoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ECC6F6B181E56670013E2CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ECC6F43181E56670013E2CC /* kokodoko */;
+			targetProxy = 6ECC6F6A181E56670013E2CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ECC6F50181E56670013E2CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ECC6F51181E56670013E2CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6ECC6F59181E56670013E2CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ECC6F5A181E56670013E2CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ECC6F6F181E56670013E2CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ECC6F70181E56670013E2CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ECC6F74181E56670013E2CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hiroki Tanida (FT7YJL6RWP)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		6ECC6F75181E56670013E2CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hiroki Tanida (FT7YJL6RWP)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		6ECC6F77181E56670013E2CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA93AD0F83B45D2BC457629 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tanidahiroki/Desktop/iPhoneApp/kokodoko,
+					"/Users/tanidahiroki/Desktop/iPhoneApp/GoogleMaps-iOS-1.7.2",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kokodoko/kokodoko-Prefix.pch";
+				INFOPLIST_FILE = "kokodoko/kokodoko-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tanidahiroki/Desktop/iPhoneApp/kokodoko/NendAd,
+					"$(PROJECT_DIR)/NendAd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "58E259CA-BE0B-4788-80EF-F0BAC7480553";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6ECC6F78181E56670013E2CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA93AD0F83B45D2BC457629 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tanidahiroki/Desktop/iPhoneApp/kokodoko,
+					"/Users/tanidahiroki/Desktop/iPhoneApp/GoogleMaps-iOS-1.7.2",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kokodoko/kokodoko-Prefix.pch";
+				INFOPLIST_FILE = "kokodoko/kokodoko-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tanidahiroki/Desktop/iPhoneApp/kokodoko/NendAd,
+					"$(PROJECT_DIR)/NendAd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6ECC6F7A181E56670013E2CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kokodoko.app/kokodoko";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kokodoko/kokodoko-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "kokodokoTests/kokodokoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6ECC6F7B181E56670013E2CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kokodoko.app/kokodoko";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kokodoko/kokodoko-Prefix.pch";
+				INFOPLIST_FILE = "kokodokoTests/kokodokoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ECC6F3F181E56670013E2CC /* Build configuration list for PBXProject "kokodoko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECC6F74181E56670013E2CC /* Debug */,
+				6ECC6F75181E56670013E2CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ECC6F76181E56670013E2CC /* Build configuration list for PBXNativeTarget "kokodoko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECC6F77181E56670013E2CC /* Debug */,
+				6ECC6F78181E56670013E2CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ECC6F79181E56670013E2CC /* Build configuration list for PBXNativeTarget "kokodokoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECC6F7A181E56670013E2CC /* Debug */,
+				6ECC6F7B181E56670013E2CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ECC6F3C181E56670013E2CC /* Project object */;
+}

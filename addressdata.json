@@ -1,0 +1,138 @@
+//http://placeinfo.olp.yahooapis.jp/V1/get?lat=35.004982&lon=135.940384&appid=dj0zaiZpPVFwUHRYZWdwQ1VVdyZzPWNvbnN1bWVyc2VjcmV0Jng9MWQ-&output=json
+
+{
+    Address = (
+        "\U6771\U4eac\U90fd",
+        "\U6e0b\U8c37\U533a",
+        "\U5b87\U7530\U5ddd\U753a",
+        "",
+        "\Uff12\Uff11"
+    );
+    Area = (
+        {
+            Id = "8e738037-ce8a-4c9f-8260-fdd5a80043e0";
+            Name = "\U6e0b\U8c37";
+            Score = "99.9999999986555";
+            Type = 2;
+        },
+        {
+            Id = 79d68a2c26846b80416a23ed3638405168bfff62;
+            Name = "\U897f\U6b66\U6e0b\U8c37\U5e97B\U9928";
+            Score = 99;
+            Type = 1;
+        },
+        {
+            Id = 773a2d4347d4079792df4cf95bc6d2a52f547a6c;
+            Name = "\U897f\U6b66\U6e0b\U8c37\U5e97A\U9928";
+            Score = 99;
+            Type = 1;
+        }
+    );
+    Country = {
+        Code = JP;
+        Name = "\U65e5\U672c";
+    };
+    Govcode = 13113;
+    Result = (
+        {
+            Category = "\U897f\U6b66";
+            Combined = "\U6e0b\U8c37\U533a\U306e\U897f\U6b66\U6e0b\U8c37\U5e97A\U9928\U4ed8\U8fd1";
+            Label = "\U897f\U6b66\U6e0b\U8c37\U5e97A\U9928";
+            Name = "\U897f\U6b66\U6e0b\U8c37\U5e97A\U9928";
+            Score = "89.97198530988931";
+            Uid = 773a2d4347d4079792df4cf95bc6d2a52f547a6c;
+            Where = "\U6e0b\U8c37\U533a";
+        },
+        {
+            Category = "\U5927\U578b\U5c02\U9580\U5e97\Uff08\U8863\U6599\U54c1\Uff09";
+            Combined = "\U6e0b\U8c37\U533a\U306e\U30d5\U30a9\U30fc\U30a8\U30d0\U30fc21\U6e0b\U8c37\U5e97\U4ed8\U8fd1";
+            Label = "\U30d5\U30a9\U30fc\U30a8\U30d0\U30fc21\U6e0b\U8c37\U5e97";
+            Name = "\U30d5\U30a9\U30fc\U30a8\U30d0\U30fc21\U6e0b\U8c37\U5e97";
+            Score = "89.8879636132875";
+            Uid = 74bc29d3cc4ac31f089493249f063dddc3975563;
+            Where = "\U6e0b\U8c37\U533a";
+        },
+        {
+            Category = "\U897f\U6b66";
+            Combined = "\U6e0b\U8c37\U533a\U306e\U897f\U6b66\U6e0b\U8c37\U5e97B\U9928\U4ed8\U8fd1";
+            Label = "\U897f\U6b66\U6e0b\U8c37\U5e97B\U9928";
+            Name = "\U897f\U6b66\U6e0b\U8c37\U5e97B\U9928";
+            Score = "89.8870208153203";
+            Uid = 79d68a2c26846b80416a23ed3638405168bfff62;
+            Where = "\U6e0b\U8c37\U533a";
+        },
+        {
+            Category = "\U5927\U578b\U5c02\U9580\U5e97\Uff08\U8863\U6599\U54c1\Uff09";
+            Combined = "\U6e0b\U8c37\U533a\U306e\U30c0\U30d6\U30eb\U30b7\U30fc\U6e0b\U8c37\U30bb\U30f3\U30bf\U30fc\U8857\U5e97\U4ed8\U8fd1";
+            Label = "\U30c0\U30d6\U30eb\U30b7\U30fc\U6e0b\U8c37\U30bb\U30f3\U30bf\U30fc\U8857\U5e97";
+            Name = "\U30c0\U30d6\U30eb\U30b7\U30fc\U6e0b\U8c37\U30bb\U30f3\U30bf\U30fc\U8857\U5e97";
+            Score = "89.1353499764105";
+            Uid = ce34c2d434161dd55e42b381d5709fce7740a6c9;
+            Where = "\U6e0b\U8c37\U533a";
+        },
+        {
+            Category = "\U305d\U306e\U4ed6\U306e\U30d5\U30a1\U30df\U30ea\U30fc\U30ec\U30b9\U30c8\U30e9\U30f3";
+            Combined = "\U6e0b\U8c37\U533a\U306e\U5143\U6c17\U5bff\U53f8\U6e0b\U8c37\U5e97\U4ed8\U8fd1";
+            Label = "\U5143\U6c17\U5bff\U53f8\U6e0b\U8c37\U5e97";
+            Name = "\U5143\U6c17\U5bff\U53f8\U6e0b\U8c37\U5e97";
+            Score = "48.9392115930466";
+            Uid = 9c3df93691bac8d02b481d2482e055c4e372adc3;
+            Where = "\U6e0b\U8c37\U533a";
+        },
+        {
+            Category = "\U3086\U3046\U3061\U3087\U9280\U884c";
+            Combined = "\U6e0b\U8c37\U533a\U306e\U3086\U3046\U3061\U3087\U9280\U884c\U672c\U5e97\U897f\U6b66\U6e0b\U8c37\U5e97\U5185\U51fa\U5f35\U6240\U4ed8\U8fd1";
+            Label = "\U3086\U3046\U3061\U3087\U9280\U884c\U672c\U5e97\U897f\U6b66\U6e0b\U8c37\U5e97\U5185\U51fa\U5f35\U6240";
+            Name = "\U3086\U3046\U3061\U3087\U9280\U884c\U672c\U5e97\U897f\U6b66\U6e0b\U8c37\U5e97\U5185\U51fa\U5f35\U6240";
+            Score = "28.2684955834377";
+            Uid = 1b210b64c7dc3a9d53fccb4bb64b7a92d2931ac6;
+            Where = "\U6e0b\U8c37\U533a";
+        },
+        {
+            Category = "\U6620\U753b\U9928\U30fb\U30b7\U30a2\U30bf\U30fc";
+            Combined = "\U6e0b\U8c37\U533a\U306e\U6e0b\U8c37\U30b7\U30cd\U30d1\U30ec\U30b9\U4ed8\U8fd1";
+            Label = "\U6e0b\U8c37\U30b7\U30cd\U30d1\U30ec\U30b9";
+            Name = "\U6e0b\U8c37\U30b7\U30cd\U30d1\U30ec\U30b9";
+            Score = "23.1821976559642";
+            Uid = 857ae93a8cedcf34e694c43d8b23f46d5f891c67;
+            Where = "\U6e0b\U8c37\U533a";
+        },
+        {
+            Category = "\U5730\U65b9\U9280\U884c";
+            Combined = "\U6e0b\U8c37\U533a\U306e\U5317\U9678\U9280\U884c\U6e0b\U8c37\U652f\U5e97\U4ed8\U8fd1";
+            Label = "\U5317\U9678\U9280\U884c\U6e0b\U8c37\U652f\U5e97";
+            Name = "\U5317\U9678\U9280\U884c\U6e0b\U8c37\U652f\U5e97";
+            Score = "23.1718594735755";
+            Uid = 764a596f2e5b0bc7f7031330bfcfb5db147ede98;
+            Where = "\U6e0b\U8c37\U533a";
+        },
+        {
+            Category = "\U30ec\U30f3\U30bf\U30eb\U30b7\U30e7\U30c3\U30d7";
+            Combined = "\U6e0b\U8c37\U533a\U306eSHIBUYA TSUTAYA\U4ed8\U8fd1";
+            Label = "SHIBUYA TSUTAYA";
+            Name = "SHIBUYA TSUTAYA";
+            Score = "22.9507749607251";
+            Uid = 8b241d23a1c5e065a5a5ad360252f7fe5992e046;
+            Where = "\U6e0b\U8c37\U533a";
+        },
+        {
+            Category = "\U30c9\U30e9\U30c3\U30b0\U30b9\U30c8\U30a2";
+            Combined = "\U6e0b\U8c37\U533a\U306e\U4e09\U5343\U91cc\U85ac\U54c1\U5b87\U7530\U5ddd\U5e97\U4ed8\U8fd1";
+            Label = "\U4e09\U5343\U91cc\U85ac\U54c1\U5b87\U7530\U5ddd\U5e97";
+            Name = "\U4e09\U5343\U91cc\U85ac\U54c1\U5b87\U7530\U5ddd\U5e97";
+            Score = "19.6184085200966";
+            Uid = 120570529876bee5f7f7d0e57ce4d138afa90807;
+            Where = "\U6e0b\U8c37\U533a";
+        },
+        {
+            Category = "\U66f8\U5e97";
+            Combined = "\U6e0b\U8c37\U533a\U306e\U5927\U76db\U5802\U66f8\U5e97\U4ed8\U8fd1";
+            Label = "\U5927\U76db\U5802\U66f8\U5e97";
+            Name = "\U5927\U76db\U5802\U66f8\U5e97";
+            Score = "13.5957747350041";
+            Uid = 4f3378e3bc35bc4d1bbd9a3079a1aa1d5a5303eb;
+            Where = "\U6e0b\U8c37\U533a";
+        }
+    );
+    Roadname = "<null>";
+}
